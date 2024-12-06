@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <p>Unit Converter</p>
+    <div>
+      <input type="number" id="number" placeholder="Entrez un nombre" />
+      <select name="quoi" id="quoi">
+        <option value="choose">-- Choisir une option --</option>
+        <option value="Devise">Devise</option>
+        <option value="Temps">Temps</option>
+        <option value="Distance">Distance</option>
+      </select>
+      <center>
+        <select name="devise" id="devise">
+          <option value="€_en_$">€ en $</option>
+          <option value="$_en_€">$ en €</option>
+        </select>
+
+        <select name="temps" id="temps">
+          <option value="secondes_en_minutes">secondes en minutes</option>
+          <option value="minutes_en_secondes">minutes en secondes</option>
+          <option value="minutes_en_heures">minutes en heures</option>
+          <option value="heures_en_minutes">heures en minutes</option>
+          <option value="heures_en_jours">heures en jours</option>
+          <option value="jours_en_heures">jours en heures</option>
+        </select>
+
+        <select name="distance" id="distance">
+          <option value="mm_en_cm">mm en cm</option>
+          <option value="cm_en_mm">cm en mm</option>
+          <option value="cm_en_m">cm en m</option>
+          <option value="m_en_cm">m en cm</option>
+          <option value="m_en_km">m en km</option>
+          <option value="km_en_m">km en m</option>
+        </select>
+      </center>
+      <input type="submit" id="submit" />
+    </div>
+  </body>
+</html>
