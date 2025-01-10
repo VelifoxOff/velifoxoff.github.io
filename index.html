@@ -3,17 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Probability Calculator</title>
+    <title>Spin Probability Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Jujutsu Infinite Spin Probability Calculator</h1>
-        <p>Enter the number of spins to calculate your chances:</p>
-        <input type="number" id="spinsInput" placeholder="Enter number of spins" min="1">
-        <button onclick="calculateProbabilities()">Calculate</button>
-        <div class="results" id="results"></div>
+        <h1><jji-name style="color: #e16064;">Jujutsu Infinite</jji-name><br>Spins Probability Calculator</h1>
+
+        <!-- Input Section -->
+        <div class="card" id="calculation">
+            <p>Enter the number of spins to calculate your chances:</p>
+            <div class="input-container">
+                <input type="number" id="spinsInput" placeholder="Enter number of spins" min="1">
+                <button onclick="calculateProbabilities()">Calculate</button>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="card" id="results">
+            <h2>Results</h2>
+            <div id="resultsContent">
+                <p>No results yet. Enter a number of spins and click "Calculate".</p>
+            </div>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
+<footer>
+    <p>2025 - Made by Velifox</p>
+</footer>   
 </html>
