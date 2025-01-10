@@ -1,0 +1,44 @@
+body {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #ffffff;
+}
+.container {
+    margin-top: 50px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.results {
+    margin-top: 20px;
+}
+.result {
+    margin: 5px 0;
+}
+.special { color: #4a90e2; } /* Blue */
+.legendary { color: #e74c3c; } /* Red */
+.rare { color: #f1c40f; } /* Yellow */
+.uncommon { color: #2ecc71; } /* Green */
+.common { color: #ffffff; } /* White */
